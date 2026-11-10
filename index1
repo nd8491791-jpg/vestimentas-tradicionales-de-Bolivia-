@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Integral de Gestión - Colegio José Clemente de Azara</title>
+    <style>
+        /* Estilos básicos para la estructura */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            margin: 0;
+            padding: 0;
+        }
+        /* Estilos para la sección principal */
+        .main-section {
+            padding: 20px;
+            background: #fff;
+        }
+        .data-card {
+            background: #f4f4f4;
+            padding: 15px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        .data-card h3 {
+            margin-top: 0;
+        }
+        /* Estilos para el formulario de registro */
+        .register-form {
+            padding: 20px;
+        }
+        .register-form button {
+            background-color: #e8491d;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+         /*Estilos para contacto*/
+        .contact-info {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f4f4f4;
+        }
+
+        .contact-info h3 {
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Colegio José Clemente de Azara</h1>
+            <p>Sistema de Gestión Estudiantil</p>
+        </div>
+    </header>
+
+    <section class="main-section">
+        <div class="container">
+            <div class="register-form">
+                <button>Registrar Estudiante</button>
+                <p>Kardex completo con información de emergencia y notificaciones</p>
+            </div>
+
+            <div class="data-card">
+                <h3>Estudiantes</h3>
+                <p>0</p>
+            </div>
+
+             <div class="data-card">
+                <h3>Grados</h3>
+                <p>12</p>
+            </div>
+
+            <div class="data-card">
+                <h3>Notificaciones</h3>
+                <p>0</p>
+            </div>
+
+            <div class="data-card">
+                <h3>Años</h3>
+                <p>50+</p>
+            </div>
+
+             <div class="contact-info">
+                <h3>Contacto</h3>
+                <p><strong>Teléfono:</strong> +591 4 6000000</p>
+                <p><strong>Email:</strong> info@colegioazara.edu.bo</p>
+                <p><strong>Ubicación:</strong> Sucre, Bolivia</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
